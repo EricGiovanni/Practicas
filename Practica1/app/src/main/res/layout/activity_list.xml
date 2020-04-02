@@ -6,14 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".ui.login.ListActivity">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="341dp"
-        android:layout_height="330dp"
-        android:text="@string/welcome"
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="343dp"
+        android:layout_height="574dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.498" />
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -48,7 +48,7 @@ public class LoginActivity extends AppCompatActivity {
                         @Override
                         public void onResponse(String response) {
                             if(response.equals("false")){
-                                Toast.makeText(view.getContext(), "Usuario o contraseña incorrecta", Toast.LENGTH_LONG);
+                                Toast.makeText(getApplicationContext(), "Usuario o contraseña incorrecta", Toast.LENGTH_LONG);
                             }else{
                                 Intent intent = new Intent(view.getContext(), ListActivity.class);
                                 intent.putExtra("response", response.toString());
@@ -58,10 +58,10 @@ public class LoginActivity extends AppCompatActivity {
                     }, new Response.ErrorListener() {
                 @Override
                 public void onErrorResponse(VolleyError error) {
-                    Toast.makeText(view.getContext(), error.toString(), Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), error.toString(), Toast.LENGTH_LONG).show();
                 }
             });
-            mq.add(stringRequest);
+                mq.add(stringRequest);
         }
     }
 }
