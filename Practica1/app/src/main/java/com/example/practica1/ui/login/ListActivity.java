@@ -27,6 +27,6 @@ public class ListActivity extends AppCompatActivity {
             list.add(s.nextToken());
         }
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, list);
-        listView.setAdapter(adapter);
+        listView.setAdapter(adapter);+
     }
 }

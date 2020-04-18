@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Tarea3</string>
+    <string name="nombre">Nombre: </string>
+    <string name="apellido">Apellido: </string>
+    <string name="carrera">Carrera: </string>
+    <string name="ingresaN">Ingresa tu nombre</string>
+    <string name="ingresaA">Ingresa tu apellido</string>
+    <string name="ingresaC">Ingresa tu carrera</string>
+    <string name="enviar">Enviar información</string>
+    <string name="alumno">Alumno registrado con éxito</string>
+    <string name="regresar">Regresar</string>
+</resources>
