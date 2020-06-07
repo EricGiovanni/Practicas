@@ -6,7 +6,8 @@
     <string name="ingresaN">Ingresa tu nombre</string>
     <string name="ingresaA">Ingresa tu apellido</string>
     <string name="ingresaC">Ingresa tu carrera</string>
-    <string name="enviar">Enviar información</string>
+    <string name="enviar">Registrar usuario</string>
     <string name="alumno">Alumno registrado con éxito</string>
     <string name="regresar">Regresar</string>
+    <string name="obtener">Obtener todos los registros</string>
 </resources>
